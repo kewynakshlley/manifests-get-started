@@ -553,7 +553,7 @@ metadata:
   name: aws-load-balancer-controller
   namespace: kube-system
   annotations:
-      eks.amazonaws.com/role-arn: $(AWS_ROLE_ARN)
+      eks.amazonaws.com/role-arn: arn:aws:iam::055345809523:role/eksctl-kubeflow13-addon-iamserviceaccount-ku-Role1-1GTNY17OJ0ISW
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
