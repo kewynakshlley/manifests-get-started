@@ -32,7 +32,7 @@ vars:
     apiVersion: v1
   fieldref:
     fieldpath: data.application_secret
-- name: cluster_name
+- name: 
   objref:
     kind: ConfigMap
     name: dex-authn-config

@@ -43,3 +43,6 @@ resources:
 
 # Load Balancer
 - ../common/load-balancer/base
+
+# Harbor registry manager
+- ../common/harbor/harbor-registry/base
